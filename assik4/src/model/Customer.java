@@ -1,4 +1,6 @@
 package model;
 
-public class Customer {
+public record Customer(String name, String email,String shippingAddress, double accountBalance)
+{
+
 }
